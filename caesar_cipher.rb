@@ -1,5 +1,4 @@
 
-
 def caesar_cipher(string, number)
   alphabet = ('a'..'z').to_a
   encrypted = string.chars.map do |char|
@@ -14,6 +13,6 @@ def caesar_cipher(string, number)
   encrypted.join
 end
 
-puts caesar_cipher('y', 5)  # => "ifmmp"
-puts caesar_cipher('What a string!', 5)  # => "Mjqqt, Btwqi!"
+puts caesar_cipher('Hello World', 3)  
+puts caesar_cipher('What a string!', 5)  
 
